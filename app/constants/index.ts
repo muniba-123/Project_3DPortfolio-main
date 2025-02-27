@@ -260,6 +260,24 @@ const projects: {
     platform: "Vercel",
     deploy_link: "https://project-issue-tracker.vercel.app/",
   },
+  {
+    name: "3D Portfolio",
+    description: "A modern 3D Developer Portfolio made using Three.js",
+    tags: [
+      {
+        name: "next",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "green-text-gradient",
+      },
+    ],
+    image: "/projectimg/portfolio.png",
+    source_code_link: "https://github.com/muniba-123/Project_3DPortfolio-main",
+    platform: "Vercel",
+    deploy_link: "",
+  },
 ];
 
 export { services, technologies, experiences, testimonials, projects };
